@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -8,6 +9,7 @@ using UnityEngine.Serialization;
 namespace TheWorldBeyond.Audio
 {
     // Definition for a sound class to add to prefabs. Contains clips, parameters and source
+    [MetaCodeSample("TheWorldBeyond")]
     public class SoundEntry : MonoBehaviour
     {
         public string DisplayName;

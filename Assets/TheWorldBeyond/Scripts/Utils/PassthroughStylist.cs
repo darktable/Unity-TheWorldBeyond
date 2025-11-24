@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using TheWorldBeyond.GameManagement;
 using TMPro;
@@ -11,6 +12,7 @@ namespace TheWorldBeyond.Utils
     /// <summary>
     /// A helper to manage blending Passthrough between different styles.
     /// </summary>
+    [MetaCodeSample("TheWorldBeyond")]
     public class PassthroughStylist : MonoBehaviour
     {
 

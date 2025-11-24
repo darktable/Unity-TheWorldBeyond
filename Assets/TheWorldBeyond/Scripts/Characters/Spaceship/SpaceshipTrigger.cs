@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using TheWorldBeyond.Audio;
 using UnityEngine;
@@ -9,6 +10,7 @@ using UnityEditor;
 namespace TheWorldBeyond.Character
 {
 #if UNITY_EDITOR
+    [MetaCodeSample("TheWorldBeyond")]
     [CustomEditor(typeof(SpaceshipTrigger))]
     public class SpaceshipTriggerEditor : Editor
     {
@@ -27,6 +29,7 @@ namespace TheWorldBeyond.Character
         }
     }
 #endif
+    [MetaCodeSample("TheWorldBeyond")]
     public class SpaceshipTrigger : MonoBehaviour
     {
         public Animator[] Animators;

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,7 @@ using Random = UnityEngine.Random;
 
 namespace TheWorldBeyond.Environment.RoomEnvironment
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class VirtualRoom : MonoBehaviour
     {
         [SerializeField] private EffectMesh EffectMeshForIntroEffect;

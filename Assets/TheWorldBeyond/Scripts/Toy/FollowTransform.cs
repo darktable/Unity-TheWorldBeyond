@@ -1,9 +1,11 @@
 ﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.Toy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class FollowTransform : MonoBehaviour
     {
         public bool IsLateUpdate = false;

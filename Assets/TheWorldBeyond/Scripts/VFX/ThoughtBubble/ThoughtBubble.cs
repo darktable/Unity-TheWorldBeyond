@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TheWorldBeyond.GameManagement;
 using TMPro;
 using UnityEngine;
 
 namespace TheWorldBeyond.VFX
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class ThoughtBubble : MonoBehaviour
     {
         public TextMeshProUGUI ThoughtText;

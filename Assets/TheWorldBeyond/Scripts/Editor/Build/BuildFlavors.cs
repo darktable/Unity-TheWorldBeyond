@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.IO;
 using UnityEditor;
 using UnityEditor.Build;
 
+[MetaCodeSample("TheWorldBeyond")]
 public class BuildFlavors
 {
     private const string ApkAppName = "TheWorldBeyond";
@@ -87,6 +89,7 @@ public class BuildFlavors
     }
 }
 
+[MetaCodeSample("TheWorldBeyond")]
 public class HandleBuildError
 {
     public static void Check(UnityEditor.Build.Reporting.BuildReport buildReport)

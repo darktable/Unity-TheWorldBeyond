@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace TheWorldBeyond.Audio
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class AmbSfx : MonoBehaviour
     {
         #region PublicVariables

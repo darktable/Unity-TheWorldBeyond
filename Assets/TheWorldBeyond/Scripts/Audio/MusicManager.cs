@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using UnityEngine;
 
 namespace TheWorldBeyond.Audio
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class MusicManager : MonoBehaviour
     {
         public static MusicManager Instance = null;

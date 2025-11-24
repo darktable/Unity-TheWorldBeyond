@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 //https://forum.unity.com/threads/how-to-change-the-name-of-list-elements-in-the-inspector.448910/
 
 namespace TheWorldBeyond.Utils
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class NamedArrayAttribute : PropertyAttribute
     {
         public readonly string[] Names;

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using TheWorldBeyond.Environment.RoomEnvironment;
 using TheWorldBeyond.GameManagement;
@@ -8,6 +9,7 @@ using Color = UnityEngine.Color;
 
 namespace TheWorldBeyond.Audio
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class AmbSfx_Manager : MonoBehaviour
     {
         public static AmbSfx_Manager Instance = null;

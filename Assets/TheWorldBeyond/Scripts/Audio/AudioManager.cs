@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,6 +12,7 @@ using Random = UnityEngine.Random;
 namespace TheWorldBeyond.Audio
 {
     // this is designed for fire-and-forget, non-looping sounds
+    [MetaCodeSample("TheWorldBeyond")]
     public class AudioManager : MonoBehaviour
     {
         // STATIC COMPONENTS
@@ -453,6 +455,7 @@ namespace TheWorldBeyond.Audio
         }
     }
 
+    [MetaCodeSample("TheWorldBeyond")]
     public class AudioSounds
     {
         public List<AudioClip> AudioClips;

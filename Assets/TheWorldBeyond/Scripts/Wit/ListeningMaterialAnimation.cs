@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TheWorldBeyond.GameManagement;
 using UnityEngine;
 
 namespace TheWorldBeyond.Wit
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class ListeningMaterialAnimation : MonoBehaviour
     {
         public float ScrollSpeed = -0.05F;

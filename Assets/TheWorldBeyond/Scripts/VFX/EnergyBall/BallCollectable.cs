@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Interaction.HandGrab;
 using TheWorldBeyond.Audio;
 using TheWorldBeyond.Character.Oppy;
@@ -10,6 +11,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.VFX
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class BallCollectable : MonoBehaviour
     {
         public enum BallStatus

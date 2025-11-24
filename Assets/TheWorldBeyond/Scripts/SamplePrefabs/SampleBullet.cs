@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.SamplePrefabs
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SampleBullet : MonoBehaviour
     {
         public GameObject DebrisPrefab;

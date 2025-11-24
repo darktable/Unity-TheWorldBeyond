@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using TheWorldBeyond.Audio;
 using TheWorldBeyond.GameManagement;
@@ -11,6 +12,7 @@ using UnityEngine.AI;
 
 namespace TheWorldBeyond.Character.Oppy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class VirtualPet : MonoBehaviour
     {
         private BallCollectable m_ballEatTarget = null;

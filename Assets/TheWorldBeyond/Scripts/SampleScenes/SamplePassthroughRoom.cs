@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using System.Linq;
 using Meta.XR.MRUtilityKit;
@@ -8,6 +9,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.SampleScenes
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SamplePassthroughRoom : MonoBehaviour
     {
         // all virtual content is a Child of this Transform

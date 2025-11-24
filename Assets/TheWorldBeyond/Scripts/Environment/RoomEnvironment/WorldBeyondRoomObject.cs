@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace TheWorldBeyond.Environment.RoomEnvironment
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class WorldBeyondRoomObject : MonoBehaviour
     {
         public MeshRenderer PassthroughMesh;

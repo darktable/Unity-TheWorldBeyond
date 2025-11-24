@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -7,6 +8,7 @@ using UnityEditor;
 namespace TheWorldBeyond.Character.Oppy
 {
 #if UNITY_EDITOR
+    [MetaCodeSample("TheWorldBeyond")]
     [CanEditMultipleObjects]
     [CustomEditor(typeof(BoneSim))]
     public class BoneSimEditor : Editor
@@ -44,8 +46,10 @@ namespace TheWorldBeyond.Character.Oppy
     }
 #endif
 
+    [MetaCodeSample("TheWorldBeyond")]
     public class BoneSim : MonoBehaviour
     {
+        [MetaCodeSample("TheWorldBeyond")]
         [System.Serializable]
         public class Bone
         {

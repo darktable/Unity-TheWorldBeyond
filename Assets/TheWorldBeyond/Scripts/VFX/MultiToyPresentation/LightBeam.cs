@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TheWorldBeyond.Audio;
 using TheWorldBeyond.Environment.RoomEnvironment;
 using TheWorldBeyond.GameManagement;
@@ -8,6 +9,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.VFX
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class LightBeam : MonoBehaviour
     {
         public Light BeamLight;

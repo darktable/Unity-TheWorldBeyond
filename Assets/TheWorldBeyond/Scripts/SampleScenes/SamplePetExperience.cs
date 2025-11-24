@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace TheWorldBeyond.SampleScenes
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SamplePetExperience : MonoBehaviour
     {
         private bool m_roomReady = false;

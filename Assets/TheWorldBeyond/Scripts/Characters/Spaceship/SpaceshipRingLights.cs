@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using TheWorldBeyond.GameManagement;
@@ -10,6 +11,7 @@ using UnityEditor;
 namespace TheWorldBeyond.Character
 {
 #if UNITY_EDITOR
+    [MetaCodeSample("TheWorldBeyond")]
     [CustomEditor(typeof(SpaceshipRingLights))]
     [CanEditMultipleObjects]
     public class SpaceshipRingLightsEditor : Editor
@@ -50,6 +52,7 @@ namespace TheWorldBeyond.Character
         }
     }
 #endif
+    [MetaCodeSample("TheWorldBeyond")]
     public class SpaceshipRingLights : MonoBehaviour
     {
         public GameObject BaseLight;
@@ -249,6 +252,7 @@ namespace TheWorldBeyond.Character
         }
     }
 
+    [MetaCodeSample("TheWorldBeyond")]
     public static class RingLightExtensions
     {
         /// <summary>

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ using Random = UnityEngine.Random;
 
 namespace TheWorldBeyond.GameManagement
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class WorldBeyondManager : MonoBehaviour
     {
         public static WorldBeyondManager Instance = null;

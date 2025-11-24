@@ -1,9 +1,11 @@
 ﻿// Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.Character.Oppy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class BoneSimManager : MonoBehaviour
     {
         public int EditorFrameRate = 72;

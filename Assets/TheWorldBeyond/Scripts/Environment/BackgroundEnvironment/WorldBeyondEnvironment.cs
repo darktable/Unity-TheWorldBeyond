@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using Meta.XR.MRUtilityKit;
 using TheWorldBeyond.Environment.RoomEnvironment;
@@ -8,6 +9,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.Environment
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class WorldBeyondEnvironment : MonoBehaviour
     {
         public static WorldBeyondEnvironment Instance = null;

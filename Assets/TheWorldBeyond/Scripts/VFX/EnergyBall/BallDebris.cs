@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.VFX
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class BallDebris : MonoBehaviour
     {
         private bool m_dead = false;

@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TheWorldBeyond.GameManagement;
 using TheWorldBeyond.VFX;
 using UnityEngine;
 
 namespace TheWorldBeyond.Toy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     [System.Serializable]
     public class BallShooter : WorldBeyondToy
     {

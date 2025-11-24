@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.Audio
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class FootstepAudio : MonoBehaviour
     {
         [SerializeField] private AudioClip[] m_walkArray;

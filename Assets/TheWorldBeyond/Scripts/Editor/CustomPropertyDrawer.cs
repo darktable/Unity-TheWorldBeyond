@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TheWorldBeyond.Utils;
 using UnityEditor;
 using UnityEngine;
 
 namespace TheWorldBeyond.Editor
 {
+    [MetaCodeSample("TheWorldBeyond")]
     [CustomPropertyDrawer(typeof(NamedArrayAttribute))]
     public class NamedArrayDrawer : PropertyDrawer
     {

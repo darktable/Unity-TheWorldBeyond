@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using Meta.XR.MRUtilityKit;
 using TheWorldBeyond.SamplePrefabs;
@@ -7,6 +8,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.SampleScenes
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SampleVirtualFrames : MonoBehaviour
     {
         // if the room doesn't have a DOOR or WINDOW, inform user

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System;
 using System.Collections.Generic;
 using TheWorldBeyond.Environment.RoomEnvironment;
@@ -10,6 +11,7 @@ using Color = UnityEngine.Color;
 
 namespace TheWorldBeyond.Audio
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SoundEntry_Manager : MonoBehaviour
     {
         public AudioMixer AudioMixer => AudioManager.Instance.AudioMixer;

@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using TheWorldBeyond.Audio;
 using TheWorldBeyond.GameManagement;
 using TheWorldBeyond.VFX;
@@ -7,6 +8,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.Toy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class MultiToy : MonoBehaviour
     {
         public static MultiToy Instance = null;

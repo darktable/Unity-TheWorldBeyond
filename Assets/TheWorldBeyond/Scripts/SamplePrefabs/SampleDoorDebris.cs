@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
 using Meta.XR.MRUtilityKit;
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.SamplePrefabs
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SampleDoorDebris : MonoBehaviour
     {
         private bool m_anchorInitialized = false;

@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.SamplePrefabs
 {
     // replicate the system dialog's behavior (Gravity aligned, re-orient if out of view)
+    [MetaCodeSample("TheWorldBeyond")]
     public class SampleDialog : MonoBehaviour
     {
         private Vector3 m_currentFacingDirection = Vector3.forward;

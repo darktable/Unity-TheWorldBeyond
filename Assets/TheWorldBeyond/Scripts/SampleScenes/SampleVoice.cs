@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using Oculus.Voice;
 using TMPro;
@@ -8,6 +9,7 @@ using UnityEngine.Android;
 
 namespace TheWorldBeyond.SampleScenes
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SampleVoice : MonoBehaviour
     {
         [SerializeField]

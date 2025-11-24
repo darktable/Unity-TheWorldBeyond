@@ -1,5 +1,6 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections;
 using Meta.XR.MRUtilityKit;
 using TheWorldBeyond.Audio;
@@ -10,6 +11,7 @@ using UnityEngine;
 
 namespace TheWorldBeyond.Toy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class RoomFramer : WorldBeyondToy
     {
         public static RoomFramer Instance = null;

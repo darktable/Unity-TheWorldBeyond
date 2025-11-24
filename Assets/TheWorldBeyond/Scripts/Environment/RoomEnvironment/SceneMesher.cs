@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using Meta.XR.MRUtilityKit;
 using UnityEngine;
 
 namespace TheWorldBeyond.Environment.RoomEnvironment
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class SceneMesher : MonoBehaviour
     {
         public Material MeshMaterial;

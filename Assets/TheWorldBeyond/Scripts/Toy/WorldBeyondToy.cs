@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.Toy
 {
+    [MetaCodeSample("TheWorldBeyond")]
     [System.Serializable]
     public class WorldBeyondToy : MonoBehaviour
     {

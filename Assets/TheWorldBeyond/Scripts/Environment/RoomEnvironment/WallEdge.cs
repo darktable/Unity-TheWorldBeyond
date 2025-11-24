@@ -1,9 +1,11 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using UnityEngine;
 
 namespace TheWorldBeyond.Environment.RoomEnvironment
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class WallEdge : MonoBehaviour
     {
         [HideInInspector]

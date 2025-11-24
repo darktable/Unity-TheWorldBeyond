@@ -1,10 +1,12 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using Oculus.Platform;
 using UnityEngine;
 
 namespace TheWorldBeyond.Utils
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class AppEntitlementCheck : MonoBehaviour
     {
         private void Awake()

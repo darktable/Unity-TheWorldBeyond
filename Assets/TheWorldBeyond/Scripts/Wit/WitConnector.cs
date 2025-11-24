@@ -2,6 +2,7 @@
 
 using Meta.WitAi;
 using Meta.WitAi.Json;
+using Meta.XR.Samples;
 using Oculus.Voice;
 using TheWorldBeyond.Character.Oppy;
 using UnityEngine;
@@ -12,6 +13,7 @@ using UnityEngine.Events;
 
 namespace TheWorldBeyond.Wit
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class WitConnector : MonoBehaviour
     {
         public static WitConnector Instance = null;

@@ -1,11 +1,13 @@
 // Copyright (c) Meta Platforms, Inc. and affiliates.
 
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using TheWorldBeyond.Utils;
 using UnityEngine;
 
 namespace TheWorldBeyond.Audio
 {
+    [MetaCodeSample("TheWorldBeyond")]
     [System.Serializable]
     public class OppyAudio : MonoBehaviour
     {

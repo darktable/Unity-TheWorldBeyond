@@ -1,9 +1,11 @@
 ﻿// CODE TAKEN FROM: https://wiki.unity3d.com/index.php/Triangulator
+using Meta.XR.Samples;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace TheWorldBeyond.Utils
 {
+    [MetaCodeSample("TheWorldBeyond")]
     public class Triangulator
     {
         private List<Vector2> m_points = new();
